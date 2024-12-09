@@ -9,10 +9,10 @@ doc: https://lancellc.gitbook.io/clash/clash-config-file/rule-provider
 copy and paste this to the `rule-providers` block of your clash config file.
 
 ```yaml
-  ChatGPT:
+  ai:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/paranoiddemon/clash-ruleset/main/ruleset/ai.yaml"
+    url: "https://cdn.jsdelivr.net/gh/paranoiddemon/clash-ruleset@main/ruleset/ai.yaml"
     path: ./ruleset/ai.yaml
     interval: 86400
 ```
