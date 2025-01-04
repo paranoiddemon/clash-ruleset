@@ -39,3 +39,6 @@ payload:
   # Jetbrains AI Assistant
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
   - DOMAIN-SUFFIX,grazie.ai
+
+  # Spotify
+  - DOMAIN-SUFFIX, spotify.com
